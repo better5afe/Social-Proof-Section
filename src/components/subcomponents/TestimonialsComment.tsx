@@ -1,7 +1,5 @@
 import useAvatar from '../../utils/useAvatar';
 
-import './TestimonialsComment.css';
-
 interface TestimonialsCommentProps {
 	id: number;
 	userName: string;

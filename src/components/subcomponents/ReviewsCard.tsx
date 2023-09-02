@@ -7,9 +7,9 @@ interface ReviewCardProps {
 
 const ReviewsCard: React.FC<ReviewCardProps> = ({ websiteName, starsAmt }) => {
 	return (
-		<div className='review-card mb-3 p-3 rounded text-center'>
+		<div className='review-card col-12 col-lg-9 d-lg-flex align-items-center mb-3 p-3 px-lg-5 rounded text-center'>
 			<StarRating />
-			<p className='review-details mt-2 mb-0 fw-bold'>
+			<p className='review-details mb-0 mt-2 mt-lg-0 ms-lg-4 fw-bold'>
 				Rated {starsAmt} Stars in {websiteName}
 			</p>
 		</div>

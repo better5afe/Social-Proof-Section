@@ -31,13 +31,18 @@ body {
 	color: var(--very-dark-magenta);
 }
 
-.comment-author {
-	line-height: 1.1;
-}
-
 .comment {
 	background: var(--very-dark-magenta);
 	color: var(--white);
+}
+
+.comment-avatar {
+	height: 50px;
+	width: 50px;
+}
+
+.comment-author {
+	line-height: 1.1;
 }
 
 .comment-badge {
@@ -47,4 +52,26 @@ body {
 .comment-body,
 .comment-badge {
 	font-size: 14px;
+}
+
+@media (min-width: 992px) {
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		font-size: 18px;
+	}
+	.review-card:nth-of-type(2) {
+		margin: 0 auto;
+	}
+
+	.review-card:nth-last-of-type(1) {
+		margin-left: auto;
+	}
+
+	.comment-body,
+	.comment-badge {
+		font-size: 16px;
+	}
 }
