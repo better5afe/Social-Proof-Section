@@ -13,6 +13,10 @@ body {
 	font-size: 15px;
 }
 
+.main {
+	overflow: hidden;
+}
+
 .description-title {
 	line-height: 0.8;
 }
@@ -54,14 +58,33 @@ body {
 	font-size: 14px;
 }
 
+.bg-top-desktop,
+.bg-bottom-desktop {
+	opacity: 0;
+}
+
+@media (min-width: 576px) {
+	.bg-top-mobile,
+	.bg-bottom-mobile {
+		opacity: 0;
+	}
+
+	.bg-top-desktop,
+	.bg-bottom-desktop {
+		opacity: 1;
+	}
+}
+
 @media (min-width: 992px) {
 	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-height: 100vh;
 		font-size: 18px;
 	}
+
+	.main {
+		min-width: 100vw;
+		min-height: 100vh;
+	}
+
 	.review-card:nth-of-type(2) {
 		margin: 0 auto;
 	}

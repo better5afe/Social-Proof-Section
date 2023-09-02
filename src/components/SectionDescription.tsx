@@ -1,6 +1,6 @@
 const SectionDescription = () => {
 	return (
-		<div className='description-box col-12 col-lg-4 mb-4 mb-lg-0 text-center text-lg-start'>
+		<div className='description-box col-lg-4 mb-4 mb-lg-0 text-center text-lg-start'>
 			<h1 className='description-title px-4 px-lg-0 mb-4 display-4 fw-bold'>
 				10,000+ of our users love our products.
 			</h1>

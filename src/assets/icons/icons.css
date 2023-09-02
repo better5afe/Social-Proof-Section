@@ -1,0 +1,16 @@
+.icon {
+	position: absolute;
+	z-index: -1;
+}
+
+.bg-top-mobile,
+.bg-top-desktop {
+	top: 0;
+	left: 0;
+}
+
+.bg-bottom-mobile,
+.bg-bottom-desktop {
+	bottom: 0;
+	right: 0;
+}

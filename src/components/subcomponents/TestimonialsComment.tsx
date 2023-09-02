@@ -19,7 +19,7 @@ const TestimonialsComment: React.FC<TestimonialsCommentProps> = ({
 	let verifiedBadge = isVerified ? 'Verified Buyer' : '';
 
 	return (
-		<div id={id} className='col-12 col-lg-4'>
+		<div id={id} className='col-lg-4'>
 			<div id={id} className='comment mb-3 mb-lg-0 me-lg-4 p-4 py-lg-5 rounded'>
 				<div className='comment-top d-flex align-items-center mb-4'>
 					<img
