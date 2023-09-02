@@ -13,13 +13,13 @@ body {
 	font-size: 15px;
 }
 
-.comment {
-	background: var(--very-dark-magenta);
-	color: var(--white);
+.description-title {
+	line-height: 0.8;
 }
 
-.comment-badge {
-	color: var(--soft-pink);
+.description-text {
+	font-weight: 500;
+	color: var(--dark-grayish-magenta);
 }
 
 .review-card {
@@ -31,7 +31,20 @@ body {
 	color: var(--very-dark-magenta);
 }
 
-.description-text {
-	font-weight: 500;
-	color: var(--dark-grayish-magenta);
+.comment-author {
+	line-height: 1.1;
+}
+
+.comment {
+	background: var(--very-dark-magenta);
+	color: var(--white);
+}
+
+.comment-badge {
+	color: var(--soft-pink);
+}
+
+.comment-body,
+.comment-badge {
+	font-size: 14px;
 }

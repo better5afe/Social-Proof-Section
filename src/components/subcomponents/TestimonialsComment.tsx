@@ -22,13 +22,13 @@ const TestimonialsComment: React.FC<TestimonialsCommentProps> = ({
 		<div className='comment mb-3 p-4 rounded'>
 			<div className='comment-top d-flex align-items-center mb-4'>
 				<img src={avatar} alt="User's avatar." className='comment-avatar me-3 rounded-circle'/>
-				<div>
+				<div className='comment-author'>
 					<p className='mb-0 fw-bold'>{userName}</p>
 					<p className='comment-badge mb-0 fe-bold'>{verifiedBadge}</p>
 				</div>
 			</div>
 			<div className='comment-bottom'>
-				<p className='mb-0'>"&nbsp;{commentBody}&nbsp;"</p>
+				<p className='comment-body mb-0'>"&nbsp;{commentBody}&nbsp;"</p>
 			</div>
 		</div>
 	);

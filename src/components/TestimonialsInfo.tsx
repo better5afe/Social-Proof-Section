@@ -3,10 +3,10 @@ import ReviewCards from './ReviewsCards';
 
 const TestimonialsInfo = () => {
 	return (
-		<>
+		<div>
 			<SectionDescription />
 			<ReviewCards />
-		</>
+		</div>
 	);
 };
 

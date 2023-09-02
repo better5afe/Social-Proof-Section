@@ -4,7 +4,7 @@ import { reviewsData } from '../utils/reviews-data';
 
 const ReviewCards = () => {
 	return (
-		<>
+		<div className='mb-5'>
 			{reviewsData.map((review) => (
 				<ReviewsCard
 					key={review.websiteName}
@@ -12,7 +12,7 @@ const ReviewCards = () => {
 					starsAmt={review.starsAmt}
 				/>
 			))}
-		</>
+		</div>
 	);
 };
 
