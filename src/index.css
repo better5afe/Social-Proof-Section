@@ -70,8 +70,21 @@ body {
 		margin-left: auto;
 	}
 
+	.testimonials-box {
+		height: 400px;
+	}
+
 	.comment-body,
 	.comment-badge {
 		font-size: 16px;
+	}
+
+	#iroberts {
+		align-self: center;
+	}
+
+	#awallace {
+		align-self: end;
+		margin: 0 !important;
 	}
 }
