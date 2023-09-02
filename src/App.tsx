@@ -1,5 +1,15 @@
+import TestimonialsInfo from './components/TestimonialsInfo';
+import TestimonialsComments from './components/TestimonialsComments';
+
+import 'bootstrap/dist/css/bootstrap.css';
+
 const App = () => {
-	return <h1>App</h1>;
+	return (
+		<main>
+			<TestimonialsInfo />
+			<TestimonialsComments />
+		</main>
+	);
 };
 
 export default App;
